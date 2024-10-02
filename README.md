@@ -27,4 +27,8 @@ a quotesbot spiritual successor
 |Belgic Confession              | Public Domain|
 |1689 London Baptist Confession | Public Domain|
 
-
+bcf done
+hc done
+wlc done
+wsc done
+wcf todo
