@@ -240,7 +240,7 @@ public class CPHInline
       return true;
     }
     else {
-      CPH.SendMessage("The " + textname + " doesn't seem to have a " + reference + ". Try " + commandname + " 1 or " + commandname + " 15.2", false);
+      CPH.SendMessage("The " + textname + " doesn't seem to have a " + TruncateString(reference,2) + ".... Try " + commandname + " 1 or " + commandname + " 15.2", false);
       return true;
     }
     //CPH.SendMessage(bcf_counter.ToString());
@@ -249,5 +249,10 @@ public class CPHInline
     CPH.SendMessage(lines[bcf_counter].Replace("|", ""), false);
     CPH.SetTwitchUserVarById(arg_userId, "bcf_counter", bcf_counter);
     return true;
+  }
+  public static string TruncateString(string input, int maxLength)
+  {
+    if (string.IsNullOrEmpty(input)) return input;
+    return input.Length <= maxLength ? input : input.Substring(0, maxLength);
   }
 }

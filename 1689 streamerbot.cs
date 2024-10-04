@@ -225,12 +225,12 @@ public class CPHInline
       if (lbcf1689_counter != 0)
       lbcf1689_counter--;
     }
-	else if (reference == ""){
+    else if (reference == ""){
       CPH.SendMessage("Instructions: The " + textname + " is formatted in sections. For example " + commandname + " 1 or " + commandname + " 3.2 , use !next to see the next part. If there's a fraction, there's more to the section!", false);
       return true;
     }
     else {
-      CPH.SendMessage("The " + textname + " doesn't seem to have a " + reference + ". Try " + commandname + " 1", false);
+      CPH.SendMessage("The " + textname + " doesn't seem to have a " + TruncateString(reference,2) + ".... Try " + commandname + " 1", false);
       return true;
     }
     // make sure the message is less than 500 characters
@@ -257,5 +257,10 @@ public class CPHInline
     //keep track of the latest counter
     CPH.SetTwitchUserVarById(arg_userId, "lbcf1689_counter", lbcf1689_counter);
     return true;
+  }
+  public static string TruncateString(string input, int maxLength)
+  {
+    if (string.IsNullOrEmpty(input)) return input;
+    return input.Length <= maxLength ? input : input.Substring(0, maxLength);
   }
 }

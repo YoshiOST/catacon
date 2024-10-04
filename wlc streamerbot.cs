@@ -430,7 +430,7 @@ public class CPHInline
       return true;
     }
     else {
-      CPH.SendMessage("The " + textname + " doesn't seem to have a " + reference + " try " + commandname + " q1" , false);
+      CPH.SendMessage("The " + textname + " doesn't seem to have a " + TruncateString(reference,2) + ".... try " + commandname + " q1" , false);
       return true;
     }
     //CPH.SendMessage(wcf_counter.ToString());
@@ -456,5 +456,10 @@ public class CPHInline
     }
     CPH.SetTwitchUserVarById(arg_userId, "wlc_counter", wlc_counter);
     return true;
+  }
+  public static string TruncateString(string input, int maxLength)
+  {
+    if (string.IsNullOrEmpty(input)) return input;
+    return input.Length <= maxLength ? input : input.Substring(0, maxLength);
   }
 }
