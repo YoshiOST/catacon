@@ -13,8 +13,8 @@ public class CPHInline
     string[] lines = File.ReadAllLines(filePath);
     string reference = args["input0"].ToString();
     string arg_userId = args["userId"].ToString();
-    string textname = "Westminster Shorter Catechism";
-    string commandname = "!wsc"
+    string textname = "Westminster Confession of Faith";
+    string commandname = "!wcf";
     int wcf_counter = CPH.GetTwitchUserVarById<int>(arg_userId, "wcf_counter",true);
     //convert this to a hash map
     var referenceMap = new Dictionary<string, int>
@@ -238,12 +238,12 @@ public class CPHInline
       if (wcf_counter != 0)
       wcf_counter--;
     }
-	else if (reference == ""){
+    else if (reference == ""){
       CPH.SendMessage("Instructions: The " + textname + " is formatted in sections. For example " + commandname + " 1 or " + commandname + " 14.2 , use !next to see the next part. If there's a fraction, there's more to the section!", false);
       return true;
     }
     else {
-      CPH.SendMessage("The " + textname + " doesn't seem to have a " + TruncateString(reference,2) + ".... Try " + commandname + " q1", false);
+      CPH.SendMessage("The " + textname + " doesn't seem to have a " + TruncateString(reference,2) + ".... Try " + commandname + " 1", false);
       return true;
     }
     //CPH.SendMessage(wcf_counter.ToString());
