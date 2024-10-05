@@ -1,12 +1,21 @@
 # catacon
-a quotesbot spiritual successor
+a quotesbot spiritual successor. Tested on streamer.bot(0.2.4)
 
-## Instructions
+## Instructions, examples are from streamer.bot 0.2.4
 1. Download the cs files and the associated txt file.
-2. Make sure you have streamer.bot
-3. Drag and drop the file from your computer onto the scripting area
-4. Enter the channel you want to attach the bot to (You probably need to be a mod or the streamer to be able to.)
-5. Then you are done!
+
+![chrome_uMjUvF692n](https://github.com/user-attachments/assets/d0a7b54f-f48b-4154-8088-a17f5ee175b9)
+  
+3. Make sure you have streamer.bot
+
+You need a command setup for each script to activate like so. This adding a command trigger such as core>commands>command triggered and a sub-action for c# scripts under core>c#>execute c# code
+
+![Streamer bot_yd5yt6sLtw](https://github.com/user-attachments/assets/1a14dbd6-3d01-4684-9167-e24a9f327065)
+
+
+5. Type the command in your chat and..
+6. Success!
+
 
 ## Commands
 | Command        | Description                                                                         |
