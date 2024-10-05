@@ -12,6 +12,11 @@ You need a command setup for each script to activate like so. This adding a comm
 
 ![Streamer bot_yd5yt6sLtw](https://github.com/user-attachments/assets/1a14dbd6-3d01-4684-9167-e24a9f327065)
 
+add the script into the c# code, make sure the filepath matches where the text file is. for example for the london baptist file. ```...catacon\references\1689lbcf.txt```
+
+![FSJAmAXyJj](https://github.com/user-attachments/assets/b8f16ced-7a83-4ee3-9178-4c13a0af4a87)
+
+save & compile
 
 5. Type the command in your chat and..
 6. Success!
