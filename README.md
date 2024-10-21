@@ -9,6 +9,7 @@ a quotesbot spiritual successor. Tested on streamer.bot(0.2.4)
 3. Then copy it and go to streamerbot and open the import dialog window and paste it at the top field and enjoy!
 4. You still need to download the catechism texts and set the file location below.
 
+## Manual Import
 
 
 1. Download the cs files and the associated txt file.
