@@ -2,6 +2,16 @@
 a quotesbot spiritual successor. Tested on streamer.bot(0.2.4)
 
 ## Instructions, examples are from streamer.bot 0.2.4
+
+### EASY IMPORT
+1. Go here and download the catacon file.
+2. You can open it then in the browser or notepad.
+3. Then copy it and go to streamerbot and open the import dialog window and paste it at the top field and enjoy!
+4. You still need to download the catechism texts and set the file location below.
+
+## Manual Import
+
+
 1. Download the cs files and the associated txt file.
 
 ![chrome_uMjUvF692n](https://github.com/user-attachments/assets/d0a7b54f-f48b-4154-8088-a17f5ee175b9)
