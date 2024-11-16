@@ -1,4 +1,5 @@
 # catacon
+A command tool to reference catechisms and confessions!
 a quotesbot spiritual successor. Tested on streamer.bot(0.2.4)
 
 ## Instructions, examples are from streamer.bot 0.2.4
