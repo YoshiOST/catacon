@@ -53,6 +53,7 @@ save & compile
 |Belgic Confession              | Public Domain|
 |1689 London Baptist Confession | Public Domain|
 |Canons of Dort                 | Public Domain|
+based on [relight.app](https://relight.app/)
 
 bcf done
 hc done
