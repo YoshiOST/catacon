@@ -37,6 +37,7 @@ save & compile
 | Command        | Description                                                                         |
 | -------------- | ----------------------------------------------------------------------------------- |
 |!bcf #          | for example !bcf 1 would quote the first confession of the belgic confession        |
+|!cod #           | for example !cod 1 would quote the first confession of heidelberg catechism         |
 |!wcf #          | for example !wsc 1 would quote the first confession of westminster shorter catechism|
 |!wsc #          | for example !wsc 1 would quote the first confession of westminster shorter catechism|
 |!wlc #          | for example !wlc 1 would quote the first confession of westminster longer catechism |
@@ -51,9 +52,11 @@ save & compile
 |Heidelberg Catechism           | Public Domain|
 |Belgic Confession              | Public Domain|
 |1689 London Baptist Confession | Public Domain|
+|Canons of Dort                 | Public Domain|
 
 bcf done
 hc done
 wlc done
 wsc done
 wcf todo
+cod
